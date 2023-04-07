@@ -67,8 +67,8 @@ p {
 
 .sun {
     position: absolute;
-    right: 21.5rem;
-    top: 22rem;
+    right: 12rem;
+    top: 25rem;
     width: 8%;
 }
 
@@ -76,8 +76,8 @@ p {
 .surfboards {
     width: 15%;
     position: absolute;
-    left: 29rem;
-    bottom: 1.5rem;
+    left: 15rem;
+    bottom: 2rem;
 }
 
 .beach-image {
@@ -161,3 +161,34 @@ hr {
   .footer-link:hover {
     color: #F4F9F9;
   }
+
+  @media screen and (max-width: 768px) {
+    .sun {
+      right: 9rem;
+      top: 25rem;
+      width: 10%;
+      position: absolute;
+    }
+    .surfboards {
+        left: 15rem;
+        bottom: 1.3rem;
+        width: 20%;
+        position: absolute;
+      }
+  }
+
+  @media screen and (max-width: 400px) {
+    .sun {
+      right: 2.7rem;
+      top: 26rem;
+      width: 15%;
+      position: absolute;
+    }
+    .surfboards {
+      left: 6rem;
+      bottom: 1rem;
+      width: 22%;
+      position: absolute;
+    }
+  }
+  
